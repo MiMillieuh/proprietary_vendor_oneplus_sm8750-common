@@ -99,7 +99,7 @@
 <MediaSettings>
     <!-- Each camcorder profile defines a set of predefined configuration parameters -->
     <!-- Back Camera -->
-    <CamcorderProfiles cameraId="0" startOffsetMs="300">
+    <CamcorderProfiles cameraId="0">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
       <Video codec="h264"
@@ -191,8 +191,8 @@
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
-<!-- VENDOR EDIT START -->
-    <!--<EncoderProfile quality="4kdci" fileFormat="mp4" duration="30">
+
+    <EncoderProfile quality="4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="57500000"
             width="4096"
@@ -203,8 +203,8 @@
             bitRate="156000"
             sampleRate="48000"
             channels="2" />
-    </EncoderProfile>-->
-<!-- VENDOR EDIT END -->
+    </EncoderProfile>
+
     <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="50000000"
@@ -383,8 +383,8 @@
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
-<!-- VENDOR EDIT START -->
-    <!--<EncoderProfile quality="timelapse4kdci" fileFormat="mp4" duration="30">
+
+    <EncoderProfile quality="timelapse4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="57500000"
             width="4096"
@@ -395,8 +395,8 @@
             bitRate="156000"
             sampleRate="48000"
             channels="2" />
-    </EncoderProfile>-->
-<!-- VENDOR EDIT END -->
+    </EncoderProfile>
+
     <EncoderProfile quality="timelapse2160p" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="50000000"
@@ -430,7 +430,7 @@
 
     </CamcorderProfiles>
     <!-- Front Camera -->
-    <CamcorderProfiles cameraId="1" startOffsetMs="350">
+    <CamcorderProfiles cameraId="1">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
       <Video codec="h264"
@@ -1070,7 +1070,7 @@
 
     </CamcorderProfiles>
 
-    <CamcorderProfiles cameraId="3" startOffsetMs="350">
+    <CamcorderProfiles cameraId="3">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
       <Video codec="h264"
@@ -1354,8 +1354,7 @@
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
-<!-- VENDOR EDIT START -->
-    <!--
+
     <EncoderProfile quality="timelapse4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="57500000"
@@ -1368,8 +1367,7 @@
             sampleRate="48000"
             channels="2" />
     </EncoderProfile>
-    -->
-<!-- VENDOR EDIT END -->
+
     <EncoderProfile quality="timelapse2160p" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="50000000"
@@ -1458,7 +1456,7 @@
 
     </CamcorderProfiles>
 
-    <CamcorderProfiles cameraId="4" startOffsetMs="350">
+    <CamcorderProfiles cameraId="4">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
       <Video codec="h264"
